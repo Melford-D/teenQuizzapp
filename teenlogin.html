@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Log in to teenQuiz</title>
+	<link rel="stylesheet" type="text/css" href="teenlogin.css">
+</head>
+
+
+<body class="light">
+	<!--navigation menu-->
+	<nav>
+		<div>
+			<h3>Menu</h3>
+		</div>
+		<ul class="navlinks">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a id="change" href="#">Dark Mode</a></li>
+		</ul>
+
+		<div class="burger">
+			<div class="bar"></div>
+			<div class="bar"></div>
+			<div class="bar"></div>
+		</div>
+	</nav>
+
+	<div class="header">
+		<h1>teen<span class="green">Quiz</span></h1>
+		<p>Enjoy the unlimited fun!</p>
+	</div>
+<!-- welcoming intro-->
+	<div class="main">
+		<p>welcome to <span class="blueText">teen</span><span class="greenText">Quiz</span>...<br>...tell a friend, join us and enjoy the fun!</p>
+		<br>
+		<p>"<strong>Answer it! Pass it! Level up!</strong> and finally <strong>Ask it while you control it!</strong>"</p>
+
+		<div class="form">
+			<p><strong>Log in</strong> with your <span class="blueText">teen</span><span class="greenText">Quiz</span> account and enjoy the fun.</p>
+<!--Log in and sign up-->
+			<form id="myform">
+				<label for="user name">User ID
+					<input id="userID" class="input" type="text" name="User name" placeholder="User ID" required>
+				</label>
+				<br>
+				<label for="password">Password
+					<input id="password" class="input" type="password" name="password" required="" placeholder="password">
+				</label>
+					<br>
+				<button id="btt" type="submit">Log in</button>
+			</form>
+
+			<p>Dont have an account? <a class="links" href="teenSignup.html">Sign up</a> for a <span class="blueText">teen</span><span class="greenText">Quiz</span> account. <br> The new unlimited fun awaits </p>
+		</div>
+		<a id="btt" class="links" href="#">Back to top</a>
+	</div>
+<!--developer info-->
+	<footer>
+		<nav>
+			<div>
+				<p><img class="image" src="primU.png" alt="primU Logo">@primU developers</p>
+			</div>
+		</nav>
+	</footer>
+<script type="text/javascript" src="teenlogin.js"></script>
+</body>
+</html>
