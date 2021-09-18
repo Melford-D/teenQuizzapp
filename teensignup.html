@@ -1,0 +1,99 @@
+
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign up with teenQuiz</title>
+	<link rel="stylesheet" type="text/css" href="teenSignup.css">
+</head>
+
+<body class="light">
+	<nav>
+		<div>
+			<h3>Menu</h3>
+		</div>
+		<ul class="navlinks">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a id="mode" href="#">Dark Mode</a></li>
+		</ul>
+
+		<div class="burger">
+			<div class="bars"></div>
+			<div class="bars"></div>
+			<div class="bars"></div>
+		</div>
+	</nav>
+
+	<div class="header">
+		<h1>teen<span id="heading" class="greenText">Quiz</span></h1>
+		<p>Enjoy the unlimited fun!</p>
+	</div>
+
+	<div class="main">
+		<p>welcome to <span class="blueText">teen</span><span class="greenText">Quiz</span>...<br>...tell a friend, join us and enjoy the fun!</p>
+
+		<p>"<strong>Answer it! Pass it! Level up!</strong> and finally <strong>Ask it while you control it!</strong>"</p>
+
+		<div class="form">
+			<p><strong>Sign up</strong> with <span class="blueText">teen</span><span class="greenText">Quiz</span><br> get your free account and be ready to enjoy the fun!</p>
+
+			<form id="myform">
+				<label for="first name"> First Name
+					<input id="firstName" class="input" type="text" name=" first name" required placeholder="first name">
+				</label>
+				<br>
+				<label for="Other name">Other name
+					<input id="OtherName" class="input" type="text" name="Other name" required placeholder="Other name">
+				</label>
+				<br>
+				<label for="email">Email (optinal)
+					<input id="email" class="input" type="email" name="Email" placeholder="email">
+				</label>
+				<br>
+				<label for="phone"> Phone number
+					<input id="number" class="input" type="text" name="phone" required placeholder="Phone number">
+				</label>
+				<br>
+				<label for="gender">Gender
+					<input id="gender" type="radio" name="gender" required="">Male
+					<input type="radio" name="gender" required>Female
+				</label>
+				<br>
+				<label for="DOB">Date of Birth(D/M/Y)
+					<input id="DOB" class="input" type="text" name="DOB" required placeholder="1/12/2000">
+				</label>
+				<br>
+				<label for="password">Password
+					<input id="password" class="input" type="password" name="password" required placeholder="password">
+
+					<input id="password2" class="input" type="password" name="password" required placeholder="comfirm password">
+				</label>
+				<br>
+
+				<p>By clicking the <strong>Sign up button</strong>...You declare that you agree to our <span class="links">terms of service</span> and our <span class="links">privacy and use policies</span>.</p>
+
+				<p>The new unlimited fun awaits</p>
+
+				<button type="submit">Sign up</button>
+				<br>
+				Already have account? <a class="links" href="teenlogin.html">Log in</a>
+			</form>
+		</div>
+		<a class="links" href="#">Back to top</a>
+	</div>
+
+	<footer>
+		<nav>
+			<div>
+				<p><img class="image" src="primU.png" alt="primU Logo">@primU developers</p>
+			</div>
+		</nav>
+	</footer>
+</body>
+
+<script type="text/javascript" src="teenSignup.js"></script>
+</html>
