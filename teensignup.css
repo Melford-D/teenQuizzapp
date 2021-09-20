@@ -1,14 +1,6 @@
-*{
-	padding: 0;
-	box-shadow: border-box;
-}
-
-
 .light{
-	overflow-y: scroll;
 	position: relative;
 	background-color: #F5FFFA;
-	margin: : 5px;
 	font-family: sans-serif;
 }
 /*******Navigation Menu************************
@@ -19,25 +11,6 @@ nav{
 	justify-content: space-around;
 	background-color: #696969;
 	color: #ffffff;
-	height: 8vh;
-}
-
-.image{
-	width: 30px;
-	height: 30px;
-}
-nav p{
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	width: 30%;
-}
-.navlinks{
-	display: flex;
-	justify-content: space-around;
-	list-style: none;
-	width: 40%;
-	margin-left: auto;
 }
 
 .navlinks a{
@@ -46,9 +19,8 @@ nav p{
 	cursor: pointer;
 }
 
-.navlinks a:hover{
+.navlinks li a:hover{
 	color: #000080;
-	font-size: 20px;
 }
 
 .burger div{
@@ -92,21 +64,13 @@ nav p{
 **********************************************/
 
 .main{
-	width: 50%;
-	margin: auto;
 	margin-bottom: 40px;
 	padding: 10px;
-	padding-bottom: 40px;
 	border: solid #F5F5F5;
 	border-radius: 3%;
-	text-align: center;
-	box-shadow: 1px 5px 5px rgba(0,0,030, .3)
 }
 
 .main div{
-	margin: auto;
-	width: auto;
-	display: block;
 	justify-content: space-between;
 	border: solid #F5F5F5;
 	border-radius: 3%;
@@ -145,7 +109,6 @@ nav p{
 .links :hover{
 	font-size: 20px;
 }
-
 
 /*Media Querry(Mobile Phones)**************************
 *******************************************************/

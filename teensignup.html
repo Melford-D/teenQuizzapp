@@ -1,5 +1,4 @@
-
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -7,27 +6,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sign up with teenQuiz</title>
 	<link rel="stylesheet" type="text/css" href="teensignup.css">
+	<link rel="stylesheet" type="text/css" href="global.css">
 </head>
 
 <body class="light">
-	<nav>
-		<div>
-			<h3>Menu</h3>
-		</div>
-		<ul class="navlinks">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Contact</a></li>
-			<li><a id="mode" href="#">Dark Mode</a></li>
-		</ul>
+	<header>
+		<nav>
+			<div>
+				<h3>Menu</h3>
+			</div>
+			<ul class="navlinks">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a id="change" href="#">Dark Mode</a></li>
+			</ul>
 
-		<div class="burger">
-			<div class="bars"></div>
-			<div class="bars"></div>
-			<div class="bars"></div>
-		</div>
-	</nav>
+			<div class="burger">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+		</nav>
+	</header>
 
+	<main>
 	<div class="header">
 		<h1>teen<span id="heading" class="greenText">Quiz</span></h1>
 		<p>Enjoy the unlimited fun!</p>
@@ -83,15 +86,11 @@
 				Already have account? <a class="links" href="teenlogin.html">Log in</a>
 			</form>
 		</div>
-		<a class="links" href="#">Back to top</a>
 	</div>
-
-	<footer>
-		<nav>
-			<div>
-				<p><img class="image" src="primU.png" alt="primU Logo">@primU developers</p>
-			</div>
-		</nav>
+</main>
+	<footer class="footer">
+			<img class="image" src="primU.png" alt="primU Logo">
+			<p>primU developers</p>
 	</footer>
 </body>
 

@@ -6,34 +6,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Log in to teenQuiz</title>
 	<link rel="stylesheet" type="text/css" href="teenlogin.css">
+	<link rel="stylesheet" type="text/css" href="global.css">
 </head>
 
 
 <body class="light">
 	<!--navigation menu-->
-	<nav>
-		<div>
-			<h3>Menu</h3>
-		</div>
-		<ul class="navlinks">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Contact</a></li>
-			<li><a id="change" href="#">Dark Mode</a></li>
-		</ul>
+	<header>
+		<nav>
+			<div>
+				<h3>Menu</h3>
+			</div>
+			<ul class="navlinks">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a id="change" href="#">Dark Mode</a></li>
+			</ul>
 
-		<div class="burger">
-			<div class="bar"></div>
-			<div class="bar"></div>
-			<div class="bar"></div>
-		</div>
-	</nav>
+			<div class="burger">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+			</div>
+		</nav>
+	</header>
 
-	<div class="header">
-		<h1>teen<span class="green">Quiz</span></h1>
-		<p>Enjoy the unlimited fun!</p>
-	</div>
-<!-- welcoming intro-->
+	<main>
+		<div class="header">
+			<h1>teen<span class="green">Quiz</span></h1>
+			<p>Enjoy the unlimited fun!</p>
+		</div>
+	<!-- welcoming intro-->
 	<div class="main">
 		<p>welcome to <span class="blueText">teen</span><span class="greenText">Quiz</span>...<br>...tell a friend, join us and enjoy the fun!</p>
 		<br>
@@ -41,7 +45,7 @@
 
 		<div class="form">
 			<p><strong>Log in</strong> with your <span class="blueText">teen</span><span class="greenText">Quiz</span> account and enjoy the fun.</p>
-<!--Log in and sign up-->
+	<!--Log in and sign up-->
 			<form id="myform">
 				<label for="user name">User ID
 					<input id="userID" class="input" type="text" name="User name" placeholder="User ID" required>
@@ -56,15 +60,14 @@
 
 			<p>Dont have an account? <a class="links" href="teenSignup.html">Sign up</a> for a <span class="blueText">teen</span><span class="greenText">Quiz</span> account. <br> The new unlimited fun awaits </p>
 		</div>
-		<a id="btt" class="links" href="#">Back to top</a>
 	</div>
-<!--developer info-->
+	<!--developer info-->
+	</main>
+
+	
 	<footer>
-		<nav>
-			<div>
-				<p><img class="image" src="primU.png" alt="primU Logo">@primU developers</p>
-			</div>
-		</nav>
+		<img class="image" src="primU.png" alt="primU Logo">
+		<p>primU developers</p>
 	</footer>
 <script type="text/javascript" src="teenlogin.js"></script>
 </body>
